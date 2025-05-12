@@ -1,0 +1,23 @@
+# Node modules (do NOT upload this)
+node_modules/
+
+# Environment variables and secrets
+.env
+
+# Logs
+*.log
+logs/
+npm-debug.log*
+
+# Database credentials (if any file holds them)
+config.js
+database.js
+
+# OS/system files
+.DS_Store
+Thumbs.db
+
+# Coverage / build / temp files
+coverage/
+dist/
+tmp/
