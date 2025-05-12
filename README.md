@@ -1,6 +1,6 @@
 # 📝 Taskly A Simple Todo List 
 
-![image](https://github.com/user-attachments/assets/711614a7-b3f0-46a1-babb-ef1d88bb7ff3)
+![image](https://github.com/user-attachments/assets/522d150e-e1ce-406e-9ca7-eae0575ca6c5)
 
 A full-stack todo list application built with Node.js, Express, PostgreSQL, and EJS templates.
 
