@@ -11,16 +11,11 @@ app.use(express.static("public"));
 const db = new pg.Client({
  user: "postgres",
  host: "localhost",
- database: "permalist",
- password: "abhinand21@!",
+ database: "[YOUR DATABASE NAME]",
+ password: "[YOUR PASSWORD]",
  port: 5432,
 });
 db.connect();
-
-let items = [
-  { id: 1, title: "Buy milk" },
-  { id: 2, title: "Finish homework" },
-];
 
 app.get("/", async (req, res) => {
   try {
